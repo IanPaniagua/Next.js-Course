@@ -1,0 +1,14 @@
+
+/* .link {
+    @apply hover:underline hover:text-blue-400 mr-2 transition-all;
+}
+
+.active-link {
+    @apply text-blue-500;
+} */
+ 
+/* This way is not working, because the className is not applied correctly.
+   It is better to use the clsx library to conditionally apply classes.
+   This is a workaround for the issue with Next.js and CSS modules.
+   The className is not applied correctly when using CSS modules.
+   */

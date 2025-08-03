@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div>
-      <h1>About us</h1>
+      <h1 className='text-blue-600'>About us</h1>
       <p>We are a young team of people developing a big app web with next.js</p>
       {/* Add contact form or details here */}
     </div>

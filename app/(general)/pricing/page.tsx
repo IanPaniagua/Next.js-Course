@@ -13,4 +13,4 @@ export default function PricingPage() {
       {/* Add pricing details here */}
     </div>
   );
-}
+} 

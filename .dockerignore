@@ -1,8 +1,0 @@
-Dockerignore
-.Dockerignore
-.dockerignore
-node_modules
-npm-debug.log
-README.module
-.next
-.git

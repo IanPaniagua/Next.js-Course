@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import { IoBrowsersOutline, IoLogoReact } from 'react-icons/io5';
 import { SidebarMenuItem } from './SidebarMenuItem';
-
+import { FaCalculator } from "react-icons/fa"; 
 
 const menuItems = [
   {
@@ -14,7 +14,7 @@ const menuItems = [
   },
     {
     path: 'dashboard/counter',
-    icon: <IoBrowsersOutline size={40} />,
+    icon: <FaCalculator size={40} />,
     title: 'Counter',
     subtitle: 'Local State'
   }

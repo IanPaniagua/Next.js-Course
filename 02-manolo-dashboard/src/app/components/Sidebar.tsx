@@ -1,22 +1,28 @@
 // src/app/components/Sidebar.tsx
 import Image from 'next/image';
 import React from 'react';
-import { IoBrowsersOutline, IoLogoReact } from 'react-icons/io5';
+import { IoBrowsersOutline, IoFootball, IoLogoReact } from 'react-icons/io5';
 import { SidebarMenuItem } from './SidebarMenuItem';
 import { FaCalculator } from "react-icons/fa"; 
 
 const menuItems = [
   {
-    path: 'dashboard/main',
+    path: '/dashboard/main',
     icon: <IoBrowsersOutline size={40} />,
     title: 'Dashboard',
     subtitle: 'Data Overview'
   },
-    {
-    path: 'dashboard/counter',
+  {
+    path: '/dashboard/counter',
     icon: <FaCalculator size={40} />,
     title: 'Counter',
     subtitle: 'Local State'
+  },
+      {
+    path: '/dashboard/pokemons',
+    icon: <IoFootball  size={40} />,
+    title: 'Pokemons',
+    subtitle: 'Generacion statica'
   }
 ];
 
